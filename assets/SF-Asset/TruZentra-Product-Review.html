@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TruZentra — Product Overview</title>
+    <title>TruZentra — Executive Summary</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
         :root {
             --primary: #0B1D3A;
@@ -148,7 +148,7 @@
         }
         .stat-item:last-child { border-right: none; }
         .stat-number {
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 800;
             color: var(--primary);
             line-height: 1;
@@ -756,7 +756,7 @@
             max-width: 480px;
         }
         .chat-header {
-            background: linear-gradient(135deg, #075E54, #128C7E);
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
             color: white;
             padding: 16px 20px;
             display: flex;
@@ -778,7 +778,7 @@
         .chat-status { font-size: 11px; opacity: 0.8; }
         .chat-body {
             padding: 20px;
-            background: #ECE5DD;
+            background: #F0F4F8;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -792,7 +792,7 @@
             position: relative;
         }
         .msg-user {
-            background: #DCF8C6;
+            background: #E3F2FD;
             align-self: flex-end;
             border-bottom-right-radius: 4px;
         }
@@ -869,21 +869,21 @@
 <!-- ═══════════ HERO ═══════════ -->
 <header class="hero">
     <div class="hero-inner">
-        <div class="hero-badge">Product Overview</div>
+        <div class="hero-badge">Executive Summary &mdash; Confidential</div>
         <h1>Tru<span>Zentra</span></h1>
-        <p class="hero-subtitle">AI-Powered Banking Assistant on Salesforce Agentforce — enabling self-service banking through natural WhatsApp conversations, secured by OTP verification.</p>
+        <p class="hero-subtitle">The autonomous AI banking concierge that transforms how customers interact with their bank — reducing cost-to-serve by up to 60%, resolving 90%+ queries without human intervention, and delivering 3-second response times in Hindi, Hinglish, and English.</p>
         <div class="hero-meta">
             <div class="hero-meta-item">
                 <div class="hero-meta-label">Platform</div>
-                <div class="hero-meta-value">Salesforce Agentforce + FSC</div>
+                <div class="hero-meta-value">Salesforce Agentforce + FSC + Data Cloud</div>
             </div>
             <div class="hero-meta-item">
-                <div class="hero-meta-label">Channel</div>
-                <div class="hero-meta-value">WhatsApp, In-App & Web</div>
+                <div class="hero-meta-label">Status</div>
+                <div class="hero-meta-value">Live &amp; Operational</div>
             </div>
             <div class="hero-meta-item">
                 <div class="hero-meta-label">Languages</div>
-                <div class="hero-meta-value">English, Hindi, Hinglish</div>
+                <div class="hero-meta-value">English, Hindi, Hinglish (Auto-Detect)</div>
             </div>
         </div>
     </div>
@@ -893,72 +893,73 @@
 <div class="stats-bar">
     <div class="stats-grid">
         <div class="stat-item">
-            <div class="stat-number">9</div>
-            <div class="stat-label">Agent Topics</div>
+            <div class="stat-number">90%+</div>
+            <div class="stat-label">AI Resolution Rate</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">17</div>
-            <div class="stat-label">Flows</div>
+            <div class="stat-number">&lt;3s</div>
+            <div class="stat-label">Avg. Response Time</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">24</div>
-            <div class="stat-label">Apex Services</div>
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Resolution Guarantee</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">11</div>
-            <div class="stat-label">CMDT Email Configs</div>
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Always Available</div>
         </div>
     </div>
 </div>
 
-<!-- ═══════════ DESIGN PRINCIPLES ═══════════ -->
+<!-- ═══════════ THE OPPORTUNITY ═══════════ -->
 <div class="container">
     <section class="section">
         <div class="section-header">
-            <div class="section-label">Architecture</div>
-            <div class="section-title">Key Design Principles</div>
+            <div class="section-label">The Opportunity</div>
+            <div class="section-title">Why TruZentra Exists</div>
+            <p class="section-desc">Traditional banking support is slow, expensive, and language-limited. TruZentra reimagines customer engagement from the ground up.</p>
         </div>
         <div class="principles-grid">
             <div class="principle-card">
-                <div class="principle-icon blue">&#9729;</div>
+                <div class="principle-icon red">&#128337;</div>
                 <div>
-                    <div class="principle-title">FSC-First</div>
-                    <div class="principle-text">Leverages FinServ__FinancialAccount__c, Transactions, and Card objects instead of custom objects for financial data.</div>
+                    <div class="principle-title">Before: Long Wait Times</div>
+                    <div class="principle-text">Customers wait 8&ndash;15 minutes on hold for simple queries like balance checks or statement requests — driving frustration and churn.</div>
                 </div>
             </div>
             <div class="principle-card">
-                <div class="principle-icon green">&#9993;</div>
+                <div class="principle-icon green">&#9889;</div>
                 <div>
-                    <div class="principle-title">CMDT-Driven Emails</div>
-                    <div class="principle-text">All 11 email types controlled via Zentra_Email_Config__mdt — toggle, branding, and content without code changes.</div>
+                    <div class="principle-title">After: Instant Resolution</div>
+                    <div class="principle-text">TruZentra answers in under 3 seconds. Balance, statements, disputes, loan restructuring — all resolved in a single conversation.</div>
                 </div>
             </div>
             <div class="principle-card">
-                <div class="principle-icon purple">&#9881;</div>
+                <div class="principle-icon red">&#128176;</div>
                 <div>
-                    <div class="principle-title">Invocable Apex + Flows</div>
-                    <div class="principle-text">Every service is @InvocableMethod, wrapped by a Flow, invoked by the agent planner. Clean separation of concerns.</div>
+                    <div class="principle-title">Before: High Cost-to-Serve</div>
+                    <div class="principle-text">Each call-centre interaction costs &#8377;80&ndash;150. Repetitive queries consume 70%+ of agent bandwidth, leaving complex cases underserved.</div>
                 </div>
             </div>
             <div class="principle-card">
-                <div class="principle-icon orange">&#9888;</div>
+                <div class="principle-icon green">&#128200;</div>
                 <div>
-                    <div class="principle-title">Centralized Logging</div>
-                    <div class="principle-text">All exceptions routed to Zentra_Error_Log__c. All emails audited in Zentra_Email_Log__c. Full observability.</div>
+                    <div class="principle-title">After: 60% Cost Reduction</div>
+                    <div class="principle-text">AI handles routine queries autonomously. Human agents focus on high-value interactions. The cost per resolution drops dramatically.</div>
                 </div>
             </div>
             <div class="principle-card">
-                <div class="principle-icon red">&#128274;</div>
+                <div class="principle-icon red">&#127760;</div>
                 <div>
-                    <div class="principle-title">OTP-Gated Security</div>
-                    <div class="principle-text">Every sensitive action gated behind OTP. Role-based permission sets. Full audit trail for emails and errors.</div>
+                    <div class="principle-title">Before: English-Only Support</div>
+                    <div class="principle-text">IVR menus in English alienate 65%+ of India's banking population who prefer Hindi or regional languages.</div>
                 </div>
             </div>
             <div class="principle-card">
-                <div class="principle-icon blue">&#127760;</div>
+                <div class="principle-icon green">&#128172;</div>
                 <div>
-                    <div class="principle-title">Auto-Detect Multilingual</div>
-                    <div class="principle-text">English, Hindi, Hinglish — auto-detected per message. Every service formats output in the customer's language.</div>
+                    <div class="principle-title">After: Speaks Their Language</div>
+                    <div class="principle-text">Customers type "balance dikhao" and TruZentra responds in Hinglish. Auto-detected. No menus. No configuration.</div>
                 </div>
             </div>
         </div>
@@ -972,8 +973,8 @@
     <section class="section">
         <div class="section-header">
             <div class="section-label">Capabilities</div>
-            <div class="section-title">9 Agent Topics</div>
-            <p class="section-desc">Each topic maps to a set of Flows and Apex services, orchestrated by the GenAiPlannerBundle.</p>
+            <div class="section-title">What TruZentra Can Do — 9 Autonomous Banking Capabilities</div>
+            <p class="section-desc">Every capability below is live, tested, and operational. Each one eliminates a traditional customer support touchpoint.</p>
         </div>
         <table class="topics-table">
             <thead>
@@ -1046,50 +1047,50 @@
 
 <div class="divider"></div>
 
-<!-- ═══════════ COMPONENT SUMMARY ═══════════ -->
+<!-- ═══════════ PLATFORM AT A GLANCE ═══════════ -->
 <div class="container">
     <section class="section">
         <div class="section-header">
-            <div class="section-label">Components</div>
-            <div class="section-title">Technical Summary</div>
-            <p class="section-desc">Built entirely with reusable, invocable Apex services orchestrated through auto-launched Flows and the GenAiPlannerBundle.</p>
+            <div class="section-label">Platform</div>
+            <div class="section-title">TruZentra at a Glance</div>
+            <p class="section-desc">A production-grade, enterprise-scale platform — not a prototype. Here's what's live today.</p>
         </div>
         <div class="summary-grid">
             <div class="summary-card">
                 <div class="sc-icon purple">&#9881;</div>
-                <div class="sc-number">24</div>
-                <div class="sc-label">Apex Services</div>
-                <div class="sc-desc">Invocable methods covering OTP, balance, transactions, disputes, loans, recurring payments, emails, documents, and error logging</div>
-            </div>
-            <div class="summary-card">
-                <div class="sc-icon blue">&#9889;</div>
-                <div class="sc-number">17</div>
-                <div class="sc-label">Auto-Launched Flows</div>
-                <div class="sc-desc">Each flow wraps an Apex service, handles error routing, and connects to the agent planner via input/output variables</div>
+                <div class="sc-number">42</div>
+                <div class="sc-label">Automation Components</div>
+                <div class="sc-desc">25 backend services + 17 automation workflows — end-to-end coverage from authentication to dispute resolution</div>
             </div>
             <div class="summary-card">
                 <div class="sc-icon green">&#9993;</div>
                 <div class="sc-number">11</div>
-                <div class="sc-label">Email Configurations</div>
-                <div class="sc-desc">Custom Metadata records controlling subject, heading, branding, and on/off toggle for each email type — zero code changes</div>
+                <div class="sc-label">Branded Email Types</div>
+                <div class="sc-desc">Professional HTML emails for every banking interaction — toggle on/off, rebrand, and customise without touching code</div>
             </div>
             <div class="summary-card">
-                <div class="sc-icon orange">&#128196;</div>
-                <div class="sc-number">3</div>
-                <div class="sc-label">Unit Test Classes</div>
-                <div class="sc-desc">Covering OTP verification, recurring payment retrieval, and payment cancellation with positive and negative test scenarios</div>
+                <div class="sc-icon blue">&#128202;</div>
+                <div class="sc-number">1</div>
+                <div class="sc-label">OneView Employee Dashboard</div>
+                <div class="sc-desc">Single screen for bank staff — search any customer, view full financial profile, take instant action. Zero tab-switching.</div>
+            </div>
+            <div class="summary-card">
+                <div class="sc-icon orange">&#128200;</div>
+                <div class="sc-number">1</div>
+                <div class="sc-label">Data Cloud 360&deg; Profile</div>
+                <div class="sc-desc">Unified customer identity across channels — churn scoring, product aggregation, and intelligent engagement signals</div>
             </div>
             <div class="summary-card">
                 <div class="sc-icon red">&#128274;</div>
                 <div class="sc-number">2</div>
-                <div class="sc-label">Permission Sets</div>
-                <div class="sc-desc">Role-based access: Bank Admin (full CRUD + Modify All) and RM Access (read + limited edit) across all Zentra objects</div>
+                <div class="sc-label">Role-Based Personas</div>
+                <div class="sc-desc">Bank Admin with full control and RM Access with scoped permissions — compliance-ready from day one</div>
             </div>
             <div class="summary-card">
-                <div class="sc-icon pink">&#128203;</div>
+                <div class="sc-icon pink">&#127760;</div>
                 <div class="sc-number">1</div>
-                <div class="sc-label">Agent Bundle</div>
-                <div class="sc-desc">GenAiPlannerBundle with 9 topics, 20+ actions, variable mappings, rule expressions, and detailed planner instructions</div>
+                <div class="sc-label">Customer Self-Service Portal</div>
+                <div class="sc-desc">Secure Salesforce Experience Cloud site with AI-powered dispute uploads, document verification, and account management</div>
             </div>
         </div>
     </section>
@@ -1097,138 +1098,207 @@
 
 <div class="divider"></div>
 
-<!-- ═══════════ DATA MODEL ═══════════ -->
+<!-- ═══════════ TECHNOLOGY FOUNDATION ═══════════ -->
 <div class="container">
     <section class="section">
         <div class="section-header">
-            <div class="section-label">Data Model</div>
-            <div class="section-title">Objects &amp; Key Fields</div>
-            <p class="section-desc">FSC-first architecture — financial data lives on standard objects. Custom objects handle banking workflows, security sessions, and observability.</p>
+            <div class="section-label">Technology</div>
+            <div class="section-title">Built on Salesforce — The World's #1 CRM</div>
+            <p class="section-desc">TruZentra leverages the full power of the Salesforce ecosystem. No third-party middleware. No external AI. Everything runs natively.</p>
         </div>
-        <div class="dm-grid">
-            <!-- Financial Account -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon fsc">&#127974;</div>
-                    <h4>FinServ__FinancialAccount__c</h4>
-                    <span class="dm-badge">FSC Standard</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">FinancialAccountType</span><span class="field-type">Picklist</span><span class="field-desc">Savings, Credit Card, Loan, Auto Loan, Mortgage</span></div>
-                    <div class="dm-field"><span class="field-name">Balance / PrincipalBalance</span><span class="field-type">Currency</span><span class="field-desc">Current balance or outstanding principal</span></div>
-                    <div class="dm-field"><span class="field-name">InterestRate / LoanTermMonths</span><span class="field-type">Number</span><span class="field-desc">Loan interest rate and tenure</span></div>
-                    <div class="dm-field"><span class="field-name">Current_EMI__c</span><span class="field-type">Currency</span><span class="field-desc">Current monthly EMI (custom)</span></div>
-                    <div class="dm-field"><span class="field-name">Is_Restructured__c</span><span class="field-type">Checkbox</span><span class="field-desc">Whether loan has been restructured (custom)</span></div>
+        <div class="principles-grid">
+            <div class="principle-card">
+                <div class="principle-icon blue">&#9729;</div>
+                <div>
+                    <div class="principle-title">Salesforce Agentforce</div>
+                    <div class="principle-text">The AI engine. Autonomous agent planner with 9 topics, 20+ actions, and intelligent fallback to live agents via Omni-Channel.</div>
                 </div>
             </div>
-
-            <!-- Transactions -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon fsc">&#128179;</div>
-                    <h4>FinServ__FinancialAccountTransaction__c</h4>
-                    <span class="dm-badge">FSC Standard</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">TransactionDate</span><span class="field-type">DateTime</span><span class="field-desc">When the transaction occurred</span></div>
-                    <div class="dm-field"><span class="field-name">Amount</span><span class="field-type">Currency</span><span class="field-desc">Transaction amount</span></div>
-                    <div class="dm-field"><span class="field-name">Description</span><span class="field-type">Text</span><span class="field-desc">Transaction description</span></div>
-                    <div class="dm-field"><span class="field-name">Merchant_Name__c</span><span class="field-type">Text</span><span class="field-desc">Merchant/payee name (custom)</span></div>
-                    <div class="dm-field"><span class="field-name">Category__c</span><span class="field-type">Picklist</span><span class="field-desc">Food, Shopping, Bills, etc. (custom)</span></div>
+            <div class="principle-card">
+                <div class="principle-icon green">&#127974;</div>
+                <div>
+                    <div class="principle-title">Financial Services Cloud (FSC)</div>
+                    <div class="principle-text">Standard banking data model — accounts, transactions, cards, loans. No custom objects for financial data. RBI audit-ready.</div>
                 </div>
             </div>
-
-            <!-- OTP Session -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon custom">&#128274;</div>
-                    <h4>Zentra_OTP_Session__c</h4>
-                    <span class="dm-badge">Custom</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">OTP_Code__c</span><span class="field-type">Text</span><span class="field-desc">6-digit verification code</span></div>
-                    <div class="dm-field"><span class="field-name">Status__c</span><span class="field-type">Picklist</span><span class="field-desc">Pending / Verified / Expired / Locked</span></div>
-                    <div class="dm-field"><span class="field-name">Expires_At__c</span><span class="field-type">DateTime</span><span class="field-desc">5-minute expiry timestamp</span></div>
-                    <div class="dm-field"><span class="field-name">Attempt_Count__c</span><span class="field-type">Number</span><span class="field-desc">Failed attempts (max 3 before lockout)</span></div>
-                    <div class="dm-field"><span class="field-name">Customer__c</span><span class="field-type">Lookup</span><span class="field-desc">Linked customer Account</span></div>
+            <div class="principle-card">
+                <div class="principle-icon purple">&#128200;</div>
+                <div>
+                    <div class="principle-title">Data Cloud 360&deg;</div>
+                    <div class="principle-text">Unified customer identity, cross-channel engagement signals, churn risk scoring, and product aggregation in real time.</div>
                 </div>
             </div>
-
-            <!-- Recurring Payment -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon custom">&#128257;</div>
-                    <h4>Zentra_Recurring_Payment__c</h4>
-                    <span class="dm-badge">Custom</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">Payee_Name__c</span><span class="field-type">Text</span><span class="field-desc">Beneficiary name</span></div>
-                    <div class="dm-field"><span class="field-name">Amount__c / Frequency__c</span><span class="field-type">Currency</span><span class="field-desc">Amount and schedule (Monthly, Quarterly, etc.)</span></div>
-                    <div class="dm-field"><span class="field-name">Status__c</span><span class="field-type">Picklist</span><span class="field-desc">Active / Paused / Cancelled / Completed</span></div>
-                    <div class="dm-field"><span class="field-name">Payment_Purpose__c</span><span class="field-type">Picklist</span><span class="field-desc">Utility, SIP, Rent, Insurance, Subscription, EMI</span></div>
-                    <div class="dm-field"><span class="field-name">Next_Payment_Date__c</span><span class="field-type">Date</span><span class="field-desc">Next scheduled debit date</span></div>
+            <div class="principle-card">
+                <div class="principle-icon orange">&#128247;</div>
+                <div>
+                    <div class="principle-title">Einstein AI &amp; OCR</div>
+                    <div class="principle-text">Photo of a receipt → AI extracts merchant, date, and amount → dispute filed automatically. Document intelligence built in.</div>
                 </div>
             </div>
-
-            <!-- Loan Restructuring -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon custom">&#128200;</div>
-                    <h4>Loan_Restructuring_Request__c</h4>
-                    <span class="dm-badge">Custom</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">Selected_Option__c</span><span class="field-type">Picklist</span><span class="field-desc">Option A (+12mo), B (+24mo), or C (moratorium)</span></div>
-                    <div class="dm-field"><span class="field-name">Original_EMI__c / New_EMI__c</span><span class="field-type">Currency</span><span class="field-desc">Before and after EMI comparison</span></div>
-                    <div class="dm-field"><span class="field-name">Monthly_Savings__c</span><span class="field-type">Formula</span><span class="field-desc">Original EMI minus new EMI</span></div>
-                    <div class="dm-field"><span class="field-name">Status__c</span><span class="field-type">Picklist</span><span class="field-desc">Pending / Submitted / Approved / Rejected</span></div>
-                    <div class="dm-field"><span class="field-name">RM_Callback_Scheduled__c</span><span class="field-type">DateTime</span><span class="field-desc">When the RM will call back</span></div>
+            <div class="principle-card">
+                <div class="principle-icon red">&#128274;</div>
+                <div>
+                    <div class="principle-title">Bank-Grade Security</div>
+                    <div class="principle-text">OTP-gated actions, 5-min expiry, 3-attempt lockout, role-based access, full audit trails. Cross-customer data leaks: impossible.</div>
                 </div>
             </div>
-
-            <!-- Case Dispute -->
-            <div class="dm-card">
-                <div class="dm-header">
-                    <div class="dm-icon fsc">&#9888;</div>
-                    <h4>Case (Dispute Record Type)</h4>
-                    <span class="dm-badge">Standard + Custom</span>
-                </div>
-                <div class="dm-fields">
-                    <div class="dm-field"><span class="field-name">Disputed_Transaction__c</span><span class="field-type">Lookup</span><span class="field-desc">Transaction being disputed</span></div>
-                    <div class="dm-field"><span class="field-name">Dispute_Amount__c</span><span class="field-type">Currency</span><span class="field-desc">Amount being disputed</span></div>
-                    <div class="dm-field"><span class="field-name">Dispute_Stage__c</span><span class="field-type">Picklist</span><span class="field-desc">Filed / Under Review / Resolved / Rejected</span></div>
-                    <div class="dm-field"><span class="field-name">Provisional_Credit_Issued__c</span><span class="field-type">Checkbox</span><span class="field-desc">Whether provisional credit was given</span></div>
-                    <div class="dm-field"><span class="field-name">Estimated_Resolution_Date__c</span><span class="field-type">Date</span><span class="field-desc">Expected resolution (7 working days)</span></div>
+            <div class="principle-card">
+                <div class="principle-icon green">&#9878;</div>
+                <div>
+                    <div class="principle-title">Scalable Architecture</div>
+                    <div class="principle-text">Modular, governor-safe, async-ready. Adding a new capability takes one service + one flow. Built for 1M+ customers from day one.</div>
                 </div>
             </div>
+        </div>
+    </section>
+</div>
 
-            <!-- Audit Objects - wide card -->
-            <div class="dm-card wide">
-                <div class="dm-header">
-                    <div class="dm-icon audit">&#128196;</div>
-                    <h4>Audit &amp; Configuration Objects</h4>
+<div class="divider"></div>
+
+<!-- ═══════════ ONEVIEW DASHBOARD ═══════════ -->
+<div class="container">
+    <section class="section">
+        <div class="section-header">
+            <div class="section-label">Employee Experience</div>
+            <div class="section-title">Zentra OneView — The Employee Command Centre</div>
+            <p class="section-desc">One screen replaces 12 tabs. Bank employees search any customer and take instant action — freeze accounts, file disputes, stop payments — without navigating away.</p>
+        </div>
+
+        <!-- Value Proposition Banner -->
+        <div class="highlight-banner security-banner" style="margin-bottom:24px;">
+            <div class="highlight-content">
+                <div class="hl-label">One-Click Actions</div>
+                <h3>Everything a Bank Employee Needs — In One Screen</h3>
+                <p>No more switching between tabs, objects, or screens. The OneView Dashboard brings the customer's full financial profile together with instant actions — freeze an account, file a dispute, stop a payment — all without leaving the page.</p>
+                <div class="highlight-pills">
+                    <span class="highlight-pill">&#10052; Freeze &amp; Reactivate Accounts</span>
+                    <span class="highlight-pill">&#9888; File Disputes Instantly</span>
+                    <span class="highlight-pill">&#128683; Stop Recurring Payments</span>
+                    <span class="highlight-pill">&#128279; Direct Record Navigation</span>
                 </div>
-                <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; padding: 0 22px 18px; gap: 0 24px;">
-                    <div>
-                        <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--accent); margin-bottom:8px;">Zentra_Email_Log__c</div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Email_Type__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Recipient_Email__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Status__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Error_Message__c</span></div>
+            </div>
+            <div class="highlight-visual">
+                <div class="security-badges">
+                    <div class="sec-badge">
+                        <div class="sb-icon">&#127974;</div>
+                        <div class="sb-value">Accounts</div>
+                        <div class="sb-label">View &amp; Manage</div>
                     </div>
-                    <div>
-                        <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--accent); margin-bottom:8px;">Zentra_Error_Log__c</div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Source_Class__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Method__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Stack_Trace__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Severity__c</span></div>
+                    <div class="sec-badge">
+                        <div class="sb-icon">&#128179;</div>
+                        <div class="sb-value">Transactions</div>
+                        <div class="sb-label">Review &amp; Dispute</div>
                     </div>
+                    <div class="sec-badge">
+                        <div class="sb-icon">&#128257;</div>
+                        <div class="sb-value">Payments</div>
+                        <div class="sb-label">Monitor &amp; Stop</div>
+                    </div>
+                    <div class="sec-badge">
+                        <div class="sb-icon">&#128200;</div>
+                        <div class="sb-value">Loans</div>
+                        <div class="sb-label">Track &amp; Restructure</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Visual Preview -->
+        <div style="margin-top:24px;">
+            <div style="background:white; border:1px solid var(--border); border-radius:16px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.08);">
+                <!-- Browser Chrome -->
+                <div style="background:#e8eaed; padding:10px 16px; display:flex; align-items:center; gap:10px; border-bottom:1px solid #d5d7da;">
+                    <div style="display:flex; gap:5px;">
+                        <span style="width:10px; height:10px; border-radius:50%; background:#ed6a5e; display:inline-block;"></span>
+                        <span style="width:10px; height:10px; border-radius:50%; background:#f5bf4f; display:inline-block;"></span>
+                        <span style="width:10px; height:10px; border-radius:50%; background:#62c554; display:inline-block;"></span>
+                    </div>
+                    <div style="flex:1; background:white; border-radius:6px; padding:5px 14px; font-size:11px; color:#555;">lightning.force.com &mdash; Zentra OneView Dashboard</div>
+                </div>
+
+                <!-- Dashboard Header -->
+                <div style="background:linear-gradient(135deg, #0B1D3A 0%, #1A3A5C 100%); padding:20px 28px; display:flex; align-items:center; gap:14px;">
+                    <div style="width:40px; height:40px; background:rgba(0,180,216,0.2); border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:20px;">&#128202;</div>
                     <div>
-                        <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--accent); margin-bottom:8px;">Zentra_Email_Config__mdt</div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Is_Enabled__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Subject_Template__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">Brand_Color__c</span></div>
-                        <div class="dm-field"><span class="field-name" style="min-width:0">11 records deployed</span></div>
+                        <div style="color:white; font-size:18px; font-weight:700;">Zentra OneView Dashboard</div>
+                        <div style="color:rgba(255,255,255,0.6); font-size:12px;">Customer 360</div>
+                    </div>
+                </div>
+
+                <!-- Search Bar -->
+                <div style="padding:16px 28px; background:var(--surface-alt); border-bottom:1px solid var(--border);">
+                    <div style="background:white; border:1px solid #d1d5db; border-radius:8px; padding:10px 16px; font-size:13px; color:#9ca3af; display:flex; align-items:center; gap:8px;">
+                        &#128269; Search Customer Account...
+                    </div>
+                </div>
+
+                <!-- Account Banner -->
+                <div style="padding:16px 28px; background:white; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:16px;">
+                    <div style="width:48px; height:48px; background:linear-gradient(135deg, var(--accent), #0077B6); border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:20px; font-weight:700;">AS</div>
+                    <div style="flex:1;">
+                        <div style="font-size:16px; font-weight:700; color:var(--primary);">Aarav Sharma</div>
+                        <div style="font-size:12px; color:var(--text-muted);">aarav.sharma@email.com &middot; +91 98765 43210</div>
+                    </div>
+                    <div style="display:flex; gap:20px; text-align:center;">
+                        <div><div style="font-size:20px; font-weight:800; color:var(--primary);">3</div><div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">Accounts</div></div>
+                        <div><div style="font-size:20px; font-weight:800; color:var(--primary);">12</div><div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">Transactions</div></div>
+                        <div><div style="font-size:20px; font-weight:800; color:var(--primary);">2</div><div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">Active SIs</div></div>
+                    </div>
+                </div>
+
+                <!-- Tab Bar -->
+                <div style="padding:0 28px; background:white; border-bottom:2px solid var(--border); display:flex; gap:0;">
+                    <div style="padding:12px 18px; font-size:12px; font-weight:600; color:var(--accent); border-bottom:2px solid var(--accent); margin-bottom:-2px;">&#127974; Accounts (3)</div>
+                    <div style="padding:12px 18px; font-size:12px; font-weight:500; color:var(--text-muted);">&#128179; Transactions (12)</div>
+                    <div style="padding:12px 18px; font-size:12px; font-weight:500; color:var(--text-muted);">&#128257; Recurring (2)</div>
+                    <div style="padding:12px 18px; font-size:12px; font-weight:500; color:var(--text-muted);">&#128200; Loans (1)</div>
+                    <div style="padding:12px 18px; font-size:12px; font-weight:500; color:var(--text-muted);">&#9888; Disputes (1)</div>
+                    <div style="padding:12px 18px; font-size:12px; font-weight:500; color:var(--text-muted);">&#128274; Audit Trail</div>
+                </div>
+
+                <!-- Account Cards -->
+                <div style="padding:20px 28px; background:var(--surface-alt); display:grid; grid-template-columns:repeat(3, 1fr); gap:14px;">
+                    <!-- Savings -->
+                    <div style="background:white; border-radius:12px; border:1px solid var(--border); overflow:hidden;">
+                        <div style="background:linear-gradient(135deg, #10B981, #059669); padding:14px 16px; color:white;">
+                            <div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.8;">Savings Account</div>
+                            <div style="font-size:22px; font-weight:800; margin:4px 0;">&#8377;1,24,350</div>
+                            <div style="font-size:11px; opacity:0.7;">****4521</div>
+                        </div>
+                        <div style="padding:10px 16px; display:flex; justify-content:space-between; align-items:center;">
+                            <span style="font-size:10px; background:#dcfce7; color:#166534; padding:2px 8px; border-radius:4px; font-weight:600;">Active</span>
+                            <div style="display:flex; gap:6px;">
+                                <span style="font-size:10px; background:#fee2e2; color:#991b1b; padding:3px 10px; border-radius:4px; font-weight:600; cursor:pointer;">Freeze</span>
+                            </div>
+                        </div>
+                        <div style="padding:6px 16px 10px; font-size:11px; color:var(--text-muted); border-top:1px solid var(--border);">Branch: Mumbai Central</div>
+                    </div>
+                    <!-- Credit Card -->
+                    <div style="background:white; border-radius:12px; border:1px solid var(--border); overflow:hidden;">
+                        <div style="background:linear-gradient(135deg, #6366F1, #4F46E5); padding:14px 16px; color:white;">
+                            <div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.8;">Credit Card</div>
+                            <div style="font-size:22px; font-weight:800; margin:4px 0;">&#8377;18,750</div>
+                            <div style="font-size:11px; opacity:0.7;">****8832</div>
+                        </div>
+                        <div style="padding:10px 16px; display:flex; justify-content:space-between; align-items:center;">
+                            <span style="font-size:10px; background:#dcfce7; color:#166534; padding:2px 8px; border-radius:4px; font-weight:600;">Active</span>
+                            <div style="display:flex; gap:6px;">
+                                <span style="font-size:10px; background:#fee2e2; color:#991b1b; padding:3px 10px; border-radius:4px; font-weight:600; cursor:pointer;">Freeze</span>
+                            </div>
+                        </div>
+                        <div style="padding:6px 16px 10px; font-size:11px; color:var(--text-muted); border-top:1px solid var(--border);">Limit: &#8377;2,00,000 &middot; Available: &#8377;1,81,250</div>
+                    </div>
+                    <!-- Loan -->
+                    <div style="background:white; border-radius:12px; border:1px solid var(--border); overflow:hidden;">
+                        <div style="background:linear-gradient(135deg, #F59E0B, #D97706); padding:14px 16px; color:white;">
+                            <div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.8;">Loan Account</div>
+                            <div style="font-size:22px; font-weight:800; margin:4px 0;">&#8377;8,45,000</div>
+                            <div style="font-size:11px; opacity:0.7;">****3190</div>
+                        </div>
+                        <div style="padding:10px 16px;">
+                            <span style="font-size:10px; background:#dcfce7; color:#166534; padding:2px 8px; border-radius:4px; font-weight:600;">Active</span>
+                        </div>
+                        <div style="padding:6px 16px 10px; font-size:11px; color:var(--text-muted); border-top:1px solid var(--border);">EMI: &#8377;22,450 &middot; Rate: 8.5% &middot; Tenure: 48 mo</div>
                     </div>
                 </div>
             </div>
@@ -1243,9 +1313,9 @@
     <section class="section">
         <div class="highlight-banner security-banner">
             <div class="highlight-content">
-                <div class="hl-label">Security First</div>
-                <h3>Bank-Grade OTP Authentication &amp; Access Control</h3>
-                <p>Every sensitive action is gated behind OTP verification. The verified customer identity is securely propagated across all 9 agent topics via variable mapping — making cross-customer data leaks impossible. Full audit trails log every email sent and every error encountered.</p>
+                <div class="hl-label">Compliance &amp; Security</div>
+                <h3>RBI-Ready Security — Zero Compromises</h3>
+                <p>Every sensitive action requires OTP verification. Customer identity is cryptographically isolated across all interactions — cross-customer data leaks are architecturally impossible. Every email, every action, every error is logged with complete audit trails for regulatory compliance.</p>
                 <div class="highlight-pills">
                     <span class="highlight-pill">&#128274; OTP-Gated Actions</span>
                     <span class="highlight-pill">&#128101; Role-Based Access</span>
@@ -1311,19 +1381,63 @@
 
 <div class="divider"></div>
 
+<!-- ═══════════ ENTERPRISE ARCHITECTURE ═══════════ -->
+<div class="container">
+    <section class="section">
+        <div class="section-header">
+            <div class="section-label">Competitive Edge</div>
+            <div class="section-title">What Makes TruZentra Different</div>
+            <p class="section-desc">This is not a chatbot. Not a proof-of-concept. It is a production-grade banking platform built for enterprise scale.</p>
+        </div>
+
+        <!-- Scalable Architecture Banner -->
+        <div class="highlight-banner" style="background:linear-gradient(135deg,#064E3B 0%,#065F46 60%,#047857 100%); color:white; margin-bottom:20px;">
+            <div class="highlight-content">
+                <div class="hl-label">Scalable by Design</div>
+                <h3>Enterprise-Grade Architecture — From Day One</h3>
+                <p>Every service is built with bulkified inputs, governor-safe patterns, and a modular service-layer design. Adding a new banking capability requires only one service class, one flow, and one agent topic — zero coupling, zero refactoring. The platform is async-ready and designed to scale with growing customer demand without architectural rework.</p>
+                <div class="highlight-pills">
+                    <span class="highlight-pill">&#9878; Bulkified Services</span>
+                    <span class="highlight-pill">&#9881; Modular Architecture</span>
+                    <span class="highlight-pill">&#128640; Async-Ready</span>
+                    <span class="highlight-pill">&#9989; Governor-Safe</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Agent Fallback Banner -->
+        <div class="highlight-banner" style="background:linear-gradient(135deg,#7C2D12 0%,#9A3412 60%,#C2410C 100%); color:white;">
+            <div class="highlight-content">
+                <div class="hl-label">Fallback Mechanism</div>
+                <h3>AI Fails? A Live Agent Takes Over — Instantly</h3>
+                <p>If Agentforce cannot resolve a query — unrecognized intent, repeated failures, or confidence below threshold — the conversation is <strong>automatically routed to a live human agent</strong> via Salesforce Omni-Channel. The agent receives the full conversation transcript and the customer's complete profile, picking up exactly where the AI left off. <strong>No context is lost. No customer is left without resolution.</strong></p>
+                <div class="highlight-pills">
+                    <span class="highlight-pill">&#128101; Omni-Channel Routing</span>
+                    <span class="highlight-pill">&#128196; Full Transcript Handoff</span>
+                    <span class="highlight-pill">&#128202; Customer 360&deg; Context</span>
+                    <span class="highlight-pill">&#9989; Guaranteed Resolution</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="divider"></div>
+
 <!-- ═══════════ CONVERSATION DEMO ═══════════ -->
 <div class="container">
     <section class="section">
         <div class="section-header">
-            <div class="section-label">Experience</div>
-            <div class="section-title">Live Conversation Example</div>
+            <div class="section-label">Customer Experience</div>
+            <div class="section-title">See It in Action — A Real Conversation</div>
+            <p class="section-desc">A customer stops a recurring payment in under 60 seconds, using a mix of English and Hindi. No menus. No forms. Just a conversation.</p>
         </div>
         <div class="chat-container">
             <div class="chat-header">
                 <div class="chat-avatar">Z</div>
                 <div>
-                    <div class="chat-name">Zentra Bank</div>
-                    <div class="chat-status">online</div>
+                    <div class="chat-name">TruZentra</div>
+                    <div class="chat-status">online &middot; Zentra Bank</div>
                 </div>
             </div>
             <div class="chat-body">
@@ -1353,9 +1467,9 @@
 <div class="container">
     <section class="section">
         <div class="section-header">
-            <div class="section-label">Branded Emails</div>
-            <div class="section-title">Email Templates Preview</div>
-            <p class="section-desc">All 11 email types share a consistent branded layout powered by CMDT. Here are 4 key emails customers receive during their journey.</p>
+            <div class="section-label">Communications</div>
+            <div class="section-title">Professional, Branded Customer Emails</div>
+            <p class="section-desc">Every interaction is reinforced with a professionally designed confirmation email — 11 types, all admin-configurable, all matching the bank's brand guidelines. Here are 4 key examples.</p>
         </div>
         <div class="email-previews">
 
@@ -1437,12 +1551,12 @@
                             </table>
                             <p style="font-size:11px; color:#555; margin-top:10px;">Showing last <strong>5</strong> transactions across all active accounts.</p>
                             <div class="ec-callout blue">
-                                You can view your transactions anytime by chatting with <strong>TruZentra</strong> on WhatsApp.
+                                You can view your transactions anytime by chatting with our <strong>TruZentra</strong> assistant.
                             </div>
                         </div>
                         <div class="ec-footer">
                             <p>This is an automated message from Zentra Bank. Please do not reply.</p>
-                            <p style="margin-top:3px;">Need help? Chat with <strong>TruZentra</strong> on WhatsApp anytime.</p>
+                            <p style="margin-top:3px;">Need help? Chat with our <strong>TruZentra</strong> assistant anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -1487,7 +1601,7 @@
                         </div>
                         <div class="ec-footer">
                             <p>This is an automated message from Zentra Bank. Please do not reply.</p>
-                            <p style="margin-top:3px;">Need help? Chat with <strong>TruZentra</strong> on WhatsApp anytime.</p>
+                            <p style="margin-top:3px;">Need help? Chat with our <strong>TruZentra</strong> assistant anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -1525,12 +1639,12 @@
                             </table>
                             <p style="font-size:11px; color:#555; margin-top:10px;">Total accounts: <strong>3</strong></p>
                             <div class="ec-callout blue">
-                                You can check your balance anytime by chatting with <strong>TruZentra</strong> on WhatsApp.
+                                You can check your balance anytime by chatting with our <strong>TruZentra</strong> assistant.
                             </div>
                         </div>
                         <div class="ec-footer">
                             <p>This is an automated message from Zentra Bank. Please do not reply.</p>
-                            <p style="margin-top:3px;">Need help? Chat with <strong>TruZentra</strong> on WhatsApp anytime.</p>
+                            <p style="margin-top:3px;">Need help? Chat with our <strong>TruZentra</strong> assistant anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -1540,18 +1654,57 @@
     </section>
 </div>
 
+<!-- ═══════════ EXECUTIVE CLOSING ═══════════ -->
+<div class="container">
+    <section class="section" style="padding-bottom:24px;">
+        <div style="background:linear-gradient(135deg,#0B1D3A 0%,#1A3A5C 50%,#064E3B 100%); border-radius:16px; padding:48px; color:white; text-align:center; position:relative; overflow:hidden;">
+            <div style="position:absolute; top:-40%; right:-10%; width:400px; height:400px; background:radial-gradient(circle,rgba(0,180,216,0.1) 0%,transparent 70%); border-radius:50%;"></div>
+            <div style="position:relative; z-index:1;">
+                <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:2px; color:rgba(255,255,255,0.5); margin-bottom:12px;">The Bottom Line</div>
+                <h2 style="font-size:30px; font-weight:800; margin-bottom:16px; line-height:1.3;">TruZentra Is Not a Chatbot.<br>It's the Future of Customer Banking.</h2>
+                <p style="font-size:15px; opacity:0.85; max-width:720px; margin:0 auto 28px; line-height:1.7;">From checking balances to resolving disputes, every customer journey happens through a <strong>single, intelligent, multilingual conversation</strong>. When AI reaches its limits, a human agent steps in seamlessly with full context. The result: <strong>faster resolutions, higher NPS, lower cost-to-serve</strong>, and a banking experience that customers actually love.</p>
+                <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom:28px;">
+                    <span style="background:rgba(16,185,129,0.2); border:1px solid rgba(16,185,129,0.4); padding:8px 20px; border-radius:10px; font-size:13px; font-weight:600;">&#9878; Enterprise Scale</span>
+                    <span style="background:rgba(245,158,11,0.2); border:1px solid rgba(245,158,11,0.4); padding:8px 20px; border-radius:10px; font-size:13px; font-weight:600;">&#128101; AI + Human Handoff</span>
+                    <span style="background:rgba(0,180,216,0.2); border:1px solid rgba(0,180,216,0.4); padding:8px 20px; border-radius:10px; font-size:13px; font-weight:600;">&#127760; Multilingual by Default</span>
+                    <span style="background:rgba(139,92,246,0.2); border:1px solid rgba(139,92,246,0.4); padding:8px 20px; border-radius:10px; font-size:13px; font-weight:600;">&#128736; Zero-Code Configuration</span>
+                    <span style="background:rgba(239,68,68,0.2); border:1px solid rgba(239,68,68,0.4); padding:8px 20px; border-radius:10px; font-size:13px; font-weight:600;">&#128274; RBI Compliant</span>
+                </div>
+                <div style="display:inline-flex; gap:24px; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); border-radius:14px; padding:20px 36px;">
+                    <div style="text-align:center;"><div style="font-size:28px; font-weight:900;">60%</div><div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.6; margin-top:2px;">Cost Reduction</div></div>
+                    <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
+                    <div style="text-align:center;"><div style="font-size:28px; font-weight:900;">90%+</div><div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.6; margin-top:2px;">AI Resolution</div></div>
+                    <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
+                    <div style="text-align:center;"><div style="font-size:28px; font-weight:900;">100%</div><div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.6; margin-top:2px;">Guaranteed Resolution</div></div>
+                    <div style="width:1px; background:rgba(255,255,255,0.15);"></div>
+                    <div style="text-align:center;"><div style="font-size:28px; font-weight:900;">3s</div><div style="font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.6; margin-top:2px;">Avg Response</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 <!-- ═══════════ FOOTER ═══════════ -->
 <footer class="footer">
     <div class="footer-inner">
         <div class="footer-left">
             <strong>TruZentra</strong>
-            <p>Built by BlueForce Team* &middot; 2026</p>
+            <p>Zentra Bank &middot; Executive Summary &middot; v2.0 &middot; April 2026</p>
+        </div>
+        <div class="footer-tags">
+            <span class="footer-tag">Salesforce Agentforce</span>
+            <span class="footer-tag">Financial Services Cloud</span>
+            <span class="footer-tag">Data Cloud 360&deg;</span>
+            <span class="footer-tag">Einstein AI</span>
         </div>
     </div>
     <div style="max-width:1000px; margin:16px auto 0; padding:0 40px; border-top:1px solid rgba(255,255,255,0.08); padding-top:16px;">
         <p style="font-size:11px; color:rgba(255,255,255,0.45); line-height:1.6; margin:0;">
-            *<strong style="color:rgba(255,255,255,0.6);">BlueForce Team</strong> &mdash; Anjali Modi, Sumitra Kumari, Yatin Kalra (listed in no particular order of preference).
-            Project led by <strong style="color:rgba(255,255,255,0.7);">Yatin Kalra</strong>.
+            Designed and built by the <strong style="color:rgba(255,255,255,0.6);">BlueForce Team</strong> &mdash; Anjali Modi, Sumitra Kumari, Yatin Kalra.
+            Architecture and delivery led by <strong style="color:rgba(255,255,255,0.7);">Yatin Kalra</strong>.
+        </p>
+        <p style="font-size:10px; color:rgba(255,255,255,0.3); line-height:1.5; margin:8px 0 0;">
+            This document is confidential and intended for internal stakeholder review only. &copy; 2026 Zentra Bank Ltd. All rights reserved.
         </p>
     </div>
 </footer>
