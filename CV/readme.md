@@ -1,2 +1,2 @@
 # Yatin Kalra
-## Curriculum Vitae / Résumé
+## Curriculum Vitae / Resume
